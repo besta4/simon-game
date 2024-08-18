@@ -14,6 +14,16 @@ document.addEventListener("keypress",function(){
     }
 });
 
+/*document.addEventListener("keypress", function(event) {
+    if (event.key === "o") {  // Check if the pressed key is "o"
+        if (started == false) {
+            started = true;
+            setTimeout(levelup, 700);
+        }
+    }
+});*/
+
+
 function btnFlash(btn){
     btn.classList.add("flash");
     setTimeout(function(){
